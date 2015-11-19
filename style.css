@@ -1,24 +1,8 @@
-* {margin: 0; padding: 0;}
-
-.container {
-	width: 500px;
-	margin: 0 auto;
+body {
+	margin: 20px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
 }
-img {
-	float: left;
-	max-width: 100%;
-}
-
-nav img {
-	max-width: calc(100%/8);
-}
-
-nav img.edge {
-	max-width: calc(100%/16);
-}
-
-@media screen and (max-width: 600px) {
-	.container {
-		width: 95%;
-	}
+h2 {
+	line-height: 1.2em;
 }
