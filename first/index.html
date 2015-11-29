@@ -122,8 +122,11 @@
         display: block !important;
         text-align: center !important;
       }
-      [class=wrapper] .nav-wide {display: none !important;}
+      [class=wrapper] .nav-wide {display: none;}
       [class=wrapper] .nav-narrow {display: block !important;}
+    }
+    @media only screen and (min-width: 621px) {
+      [class=wrapper] .nav-narrow {display: none !important;}
     }
   </style>
 
